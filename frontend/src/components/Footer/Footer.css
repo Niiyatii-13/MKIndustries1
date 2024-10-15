@@ -7,11 +7,11 @@
     gap: 20px;
     padding: 20px 8vw;
     padding-top: 80px;
-    background: rgb(167,91,160);
-    background: linear-gradient(90deg, rgba(167,91,160,1) 0%, rgba(255,0,118,1) 100%);
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(73,73,73,1) 100%);
 }
 .logo{
-    transform: scale(1.1);
+    width:500px
 }
 .footerContent{
     width: 100%;
