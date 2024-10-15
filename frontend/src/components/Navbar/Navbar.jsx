@@ -23,7 +23,7 @@ const Navbar = ({ setShowLogin }) => {
       <ul className="navbarMenu">
         <Link to="/" onClick={() => setMenu("home")} className={`${menu === "home" ? "active list" : "list"}`}>Home</Link>
         <a href='#exploreMenu' onClick={() => setMenu("menu")} className={`${menu === "menu" ? "active list" : "list"}`}>Menu</a>
-        <a href='#appDownload' onClick={() => setMenu("mobile-app")} className={`${menu === "mobile-app list" ? "active" : "list"}`}>Mobile app</a>
+        <a href='#social-media' onClick={() => setMenu("social-media")} className={`${menu === "social-media list" ? "active" : "list"}`}>Social Media</a>
         <a href='#footer' onClick={() => setMenu("contact")} className={`${menu === "contact" ? "active list" : "list"}`}>Contact Us</a>
       </ul>
       <div>
