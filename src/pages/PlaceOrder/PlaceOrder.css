@@ -1,0 +1,50 @@
+.placeOrder{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px 0px;
+}
+.placeOrderLeft{
+    width: 100%;
+    max-width: max(30%,500px);
+}
+.placeOrderLeft .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.placeOrderLeft input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    outline-color: #ff24a4;
+}
+.placeOrderLeft .multiField{
+    display: flex;
+    gap: 10px;
+}
+.placeOrderRight{
+    width: 100%;
+    max-width: max(40%,500px);
+}
+.placeOrderSubmit{
+    margin-top: 50px;
+    border: none;
+    background-color: #ff24a4;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
+    -moz-box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
+    box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
+}
+
+@media (max-width:700px) {
+    .placeOrder{
+        flex-direction: column;
+    }
+}
