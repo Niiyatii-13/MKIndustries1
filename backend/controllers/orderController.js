@@ -38,8 +38,8 @@ const placeOrder = async (req, res) => {
         })
         
           const session = await stripe.checkout.sessions.create({
-            success_url: `https://clickgoodfoodfrontend.onrender.com/verify?success=true&orderId=${newOrder._id}`,
-            cancel_url: `https://clickgoodfoodfrontend.onrender.com/verify?success=false&orderId=${newOrder._id}`,
+            success_url: `https://mkindustries1frontend.onrender.com/verify?success=true&orderId=${newOrder._id}`,
+            cancel_url: `https://mkindustries1frontend.onrender.com/verify?success=false&orderId=${newOrder._id}`,
             line_items: line_items,
             mode: 'payment',
           });
