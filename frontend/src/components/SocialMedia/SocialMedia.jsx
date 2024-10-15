@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 
 const SocialMedia = () => {
     return (
-        <div className='appDownload' id='appDownload'>
+        <div className='appDownload' id='social-media'>
             <p>Do visit our Instagram and Facebook profile</p>
             <div className="appDownloadPlatforms">
                 <a href = "https://www.facebook.com/p/Click-Good-Food-100064049550003/" target = "_blank"><img src={assets.facebook_icon} className='facebookIcon' alt="" /></a>
