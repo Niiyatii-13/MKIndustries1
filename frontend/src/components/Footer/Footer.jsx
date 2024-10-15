@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="footerContent">
         <div className="footerContentLeft">
             <img src={assets.logo} className='logo' alt="" />
-            <p className='footerText'>Started by Bharti Jain in 2020 and now have more than 100k Instagram followers and more than 10k Facebook followers</p>
+            <p className='footerText'>Created by Niyati Maheshwari</p>
             <div className="footerSocialIcons">
-                <a href = "https://www.facebook.com/p/Click-Good-Food-100064049550003/" target = "_blank"><img src={assets.facebook_icon} alt="" /></a>
-                <a href = "https://www.instagram.com/clickgoodfood_/" target = "_blank"><img src={assets.instagram_icon} alt="" /></a>
+                <a href = "" target = "_blank"><img src={assets.facebook_icon} alt="" /></a>
+                <a href = "" target = "_blank"><img src={assets.instagram_icon} alt="" /></a>
             </div>
         </div>
         <div className="footerContentCenter">
@@ -26,8 +26,8 @@ const Footer = () => {
         <div className="footerContentRight">
             <h2>GET IN TOUCH</h2>
             <ul>
-                <li>+91 98236352400</li>
-                <li>tanishqjain7310@gmail.com</li>
+                <li>+91 9522236917</li>
+                <li>niyati.260@gmail.com</li>
             </ul>
         </div>
       </div>
