@@ -1,5 +1,5 @@
 .search input{
-    border:1px solid rgb(255, 129, 249);
+    border:1px solid #fffff;
     border-radius: 20px;
     height: 28px;
     padding:10px;
@@ -19,7 +19,6 @@
     transform: scale(0.9);
 }
 
-
 @media (max-width:1050px) {
     .search input{
         width: 200px;
@@ -33,13 +32,15 @@
     }
 }
 
+
+
 @media (max-width:750px) {
     .search input{
         width: 200px;
-        margin-right: 20px;
        
     }
 }
+
 @media (max-width:450px) {
     .search input{
         width: 75px;       
