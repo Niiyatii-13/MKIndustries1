@@ -18,9 +18,9 @@
     margin-bottom: 15px;
     width: 100%;
     padding: 10px;
-    border: 1px solid #C5C5C5;
+    border: 1px solid black;
     border-radius: 4px;
-    outline-color: #ff24a4;
+    outline-color: black;
 }
 .placeOrderLeft .multiField{
     display: flex;
@@ -33,14 +33,14 @@
 .placeOrderSubmit{
     margin-top: 50px;
     border: none;
-    background-color: #ff24a4;
+    background-color: black;
     color: white;
     padding: 12px 30px;
     border-radius: 4px;
     cursor: pointer;
-    -webkit-box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
-    -moz-box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
-    box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
+    -webkit-box-shadow: 5px 5px 13px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 13px -1px rgba(0,0,0,1);
+    box-shadow: 5px 5px 13px -1px rgba(0,0,0,1);
 }
 
 @media (max-width:700px) {
