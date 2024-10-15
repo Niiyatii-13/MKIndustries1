@@ -10,7 +10,7 @@ const Add = () => {
         name: "",
         description: "",
         price: "",
-        category: "Salad"
+        category: "Pipes"
     });
 
     const [image, setImage] = useState(false);
