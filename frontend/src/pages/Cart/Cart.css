@@ -62,14 +62,14 @@
 .cartTotal button {
     border: none;
     color: white;
-    background-color: #ff24a4;
+    background-color: black;
     width: max(15vw,200px);
     padding: 12px 0px;
     border-radius: 4px;
     cursor: pointer;
-    -webkit-box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
-    -moz-box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
-    box-shadow: 5px 5px 13px -1px rgba(255,0,255,1);
+    -webkit-box-shadow: 5px 5px 13px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 13px -1px rgba(0,0,0,1);
+    box-shadow: 5px 5px 13px -1px rgba(0,0,0,1);
 }
 
 .cartPromocode {
