@@ -5,12 +5,12 @@
     box-shadow: 0px 0px 10px #00000015;
     transition: 0.3s;
     animation: fadeIn 1s;
-    background: rgb(255,209,251);
-    background: linear-gradient(90deg, rgba(255,209,251,1) 0%, rgba(255,21,129,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(73,73,73,1) 100%);
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
-    -webkit-box-shadow: 0px 0px 23px 1px rgba(255,0,217,1);
-    -moz-box-shadow: 0px 0px 23px 1px rgba(255,0,217,1);
-    box-shadow: 0px 0px 23px 1px rgba(255,0,217,1);
+    -webkit-box-shadow: 0px 0px 23px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 23px 1px rgba(0,0,0,1);
+    box-shadow: 0px 0px 23px 1px rgba(0,0,0,1);
 }
 .foodItem:hover{
     transform: scale(1.02);
@@ -28,7 +28,7 @@
     border-radius: 50%;
 }
 .foodItemImgContainer .add:hover{
-    border: 2px solid #ff24a4;
+    border: 2px solid black;
 }
 .foodItemImage{
    width: 100%;
@@ -51,6 +51,9 @@
 .foodItemInfo{
     padding: 20px;
 }
+.foodItemInfo p{
+    color: white;
+}
 .plus,.minus{
     transform: scale(0.5);
 }
@@ -68,11 +71,11 @@
     width: 70px;
 }
 .foodItemDesc{
-    color: #000000;
+    color: white;
     font-size: 12px;
 }
 .foodItemPrice{
-    color: #ff24a4;
+    color: white;
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;
