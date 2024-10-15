@@ -18,4 +18,4 @@ export const assets ={
     users_icon
 }
 
-export const url = 'https://mkindustriesbackend.onrender.com'
+export const url = 'https://mkindustries1.onrender.com'
